@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Social from '../Home/Social/Social';
 import './About.css';
 import monir from '../../img/monir.png';
+import ScrollToTop from '../Shared/Scroll/Scroll';
 
 const About = () => {
     useEffect(() => {
@@ -10,6 +11,7 @@ const About = () => {
     }, []);
     return (
         <main>
+            <ScrollToTop />
             <Social />
             <Container>
                 <Row>
@@ -75,18 +77,23 @@ const About = () => {
                             <div className="technology">
                                 <span>JavaScript</span>
                                 <span>React.js</span>
-                                <span>Gatsby.js</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
                                 <span>REST API</span>
-                                <span>Redux.js</span>
+                                <span>Firebase</span>
+                                <span>MongoDB</span>
+                                <span>Bootstrap</span>
+                                <span>Tailwindcss</span>
+                                <span>Wordpress</span>
+                                <span>MUI</span>
+                                <span>PHP</span>
                             </div>
                             <h4 className="skill-title abril-font text-uppercase mb-3 mt-5">
                                 I prefer not to work with
                             </h4>
                             <div className="technology">
-                                <span>PHP</span>
                                 <span>Laravel</span>
                                 <span>MySQL</span>
-                                <span>Wordpress</span>
                                 <span>jQuery</span>
                             </div>
                         </div>

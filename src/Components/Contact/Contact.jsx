@@ -4,6 +4,7 @@ import Social from '../Home/Social/Social';
 import './Contact.css';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
+import ScrollToTop from '../Shared/Scroll/Scroll';
 
 const Contact = () => {
     useEffect(() => {
@@ -25,6 +26,7 @@ const Contact = () => {
     };
     return (
         <main>
+            <ScrollToTop />
             <Social />
             <Container>
                 <div className="my-5">

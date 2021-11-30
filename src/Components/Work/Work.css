@@ -1,0 +1,54 @@
+.page-title:after {
+    content: "";
+    width: 74px;
+    height: 2px;
+    display: block;
+    margin-top: 7px;
+    background-color: #64ffda;
+}
+.card {
+    padding-left: 0;
+    padding-right: 0;
+}
+.works .works-link {
+    color: #e6f1ff;
+    text-decoration: none;
+    background: transparent;
+}
+.work-card-bg {
+    background-color: rgb(23, 42, 69);
+}
+.card-footer .preview a {
+    color: #ccd6f6;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+.screen {
+  width: 100%;
+  height: 200px; /* half image height*/
+  position: relative;
+  overflow: hidden;
+  padding: 5px;
+  cursor: pointer;
+}
+.screen img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: transform 3s ease-in-out;
+}
+.screen:hover img {
+  transform: translateY(-85%);
+}
+.modal-content {
+    background-color: rgb(23, 42, 69);
+    color: #ccd6f6;
+}
+.btn-close {
+    color: #ccd6f6;
+}
+.work-details-link button {
+    border-color: #64ffda;
+    color: #64ffda;
+}

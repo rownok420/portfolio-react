@@ -54,6 +54,8 @@
     font-size: 13px;
     height: 26px;
     text-transform: uppercase;
+    border: 1px solid;
+    border-color: #64ffda;
 }
 .featured-project .preview a {
     color: #ccd6f6;

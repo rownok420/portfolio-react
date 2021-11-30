@@ -20,7 +20,7 @@ const Hero = () => {
                         </p>
                         <h1 className="abril-font">Monir Hossain</h1>
                         <ul className="d-flex px-3 text-green">
-                            <li>
+                            <li className="mobile">
                                 Web Developer
                             </li>
                             <li className="left">

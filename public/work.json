@@ -1,0 +1,134 @@
+[
+    {
+        "key": 1,
+        "title": "Hungry Zone Food Api Project",
+        "about": "This is a niche site for influencing people to buy QualityFull Watches. User's can signup/login here and buy neccessary goods from the site. I've implemented admin panel too. Not but the list, this task was given by Programming hero as the final assignment.",
+        "technology": [
+            {
+                "use": "Html"
+            },
+            {
+                "use": "Bootstrap"
+            },
+            {
+                "use": "Css"
+            },
+            {
+                "use": "Javascript"
+            }
+        ],
+        "fetaures": [
+            {
+                "power": "MealDB Api Used for Show Food Category And Also Show Category Wise Food."
+            },
+            {
+                "power": "This website has a search feature. You can search for any kind of food name you Like."
+            },
+            {
+                "power": "You can Add To Cart any kind of Food."
+            }
+        ],
+        "git": [
+            {
+                "link": "https://github.com/netstermonir/hungry-food",
+                "icon": "fab fa-github"
+            },
+            {
+                "link": "https://hungry-zone-monir.netlify.app/",
+                "icon": "fas fa-external-link-alt"
+            }
+        ],
+        "img": "https://i.ibb.co/YQwGnfr/screencapture-hungry-zone-monir-netlify-app-2021-11-30-12-31-21.png"
+    },
+    {
+        "key": 2,
+        "title": "Best Watch Shop Website",
+        "about": "This is a niche site for influencing people to buy QualityFull Watches. User's can signup/login here and buy neccessary goods from the site. I've implemented admin panel too. Not but the list, this task was given by Programming hero as the final assignment.",
+        "technology": [
+            {
+                "use": "Reactjs"
+            },
+            {
+                "use": "Nodejs"
+            },
+            {
+                "use": "Expressjs"
+            },
+            {
+                "use": "Mongodb"
+            },
+            {
+                "use": "firebase"
+            }
+        ],
+        "fetaures": [
+            {
+                "power": "With this web app, users can see watches, buy them and see their order item."
+            },
+            {
+                "power": "They have a login method and also an admin login process."
+            },
+            {
+                "power": "They also have an admin dashboard and user dashboard. Users can see their product and can make a website review."
+            },
+            {
+                "power": "Admin panel (All Product, Delete Product, Add Product, Edit Product)."
+            }
+        ],
+        "git": [
+            {
+                "link": "https://github.com/netstermonir/watch-shop",
+                "icon": "fab fa-github"
+            },
+            {
+                "link": "https://watch-shops.web.app/",
+                "icon": "fas fa-external-link-alt"
+            },
+            {
+                "link": "https://github.com/netstermonir/watch-shop-server",
+                "icon": "fab fa-github"
+            }
+        ],
+        "img": "https://i.ibb.co/fNnztjB/screencapture-watch-shops-web-app-2021-11-30-14-00-00-1.png"
+    },
+    {
+        "key": 3,
+        "title": "Travel-Guru (A Tour Booking Site)",
+        "about": "This site is about a Tour Package Booking System. We take all the responsibilities of our tourists and take order from this site. It's a task of assignment 11 given by programming hero. I've used my own idea to generate this UI as well as functionalities.",
+        "technology": [
+            {
+                "use": "Reactjs"
+            },
+            {
+                "use": "Nodejs"
+            },
+            {
+                "use": "Expressjs"
+            },
+            {
+                "use": "Mongodb"
+            },
+            {
+                "use": "firebase"
+            }
+        ],
+        "fetaures": [
+            {
+                "power": "An User can see the stunning tour packages which will be loaded from Mongdb."
+            },
+            {
+                "power": "User can order any package and his/her data will be saved on the database."
+            },
+            {
+                "power": "User can see his/her individual orders in my orders section and cancel any order too."
+            },
+            {
+                "power": "Admin can see all the orders of all users and can cancel or approve any order any time."
+            },
+            {
+                "power": "Admin Add Tour Packages."
+            }
+        ],
+        "img": "https://i.ibb.co/3TQq75W/screencapture-travel-guru-28648-web-app-2021-11-30-15-43-01-1.png"
+    }
+]

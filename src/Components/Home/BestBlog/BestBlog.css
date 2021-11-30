@@ -1,24 +1,8 @@
-@media only screen and (max-width: 776px) {
-  .card-deck {
-    display: flex;
-    flex-direction: column;
-}
-}
-.card-deck {
-    display: flex;
-    gap: 12px;
-}
 .blogs .blog-link {
     color: #e6f1ff;
     text-decoration: none;
     background: transparent;
 }
-.card-bg:hover {
-    transform: scale(1);
-    transition: all 3s;
-}
 .card-bg {
-    transform: scale(.9);
-    transition: all 3s;
-        background-color: rgb(23, 42, 69);
+    background-color: rgb(23, 42, 69);
 }

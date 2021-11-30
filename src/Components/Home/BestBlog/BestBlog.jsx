@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Container, Row } from 'react-bootstrap';
+import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './BestBlog.css';
 
@@ -23,76 +23,84 @@ const BestBlog = () => {
                     </div>
                 </Row>
                 {/* blog 01 */}
-                <div className="blogs my-5 card-deck">
-                    <Card className="card-bg">
-                        <a className="blog-link" href="https://medium.com/@mahmud886/simple-introduction-to-react-js-e6af8079bf63" target="_blank" rel="noopener noreferrer">
-                            <article>
-                                <img className="card-img-top" src="https://miro.medium.com/max/1280/1*aLg1-G2UAlaKpBopRnmCRg.png" alt="Simple Introduction to React.js" />
-                                <div className="card-body">
-                                    <div className="card-title h5">
-                                        Simple Introduction to React.js
-                                    </div>
-                                    <p className="small card-text">
-                                        React is a library that used to create awesome user interface … hence it is a library it need some other…
-                                    </p>
-                                </div>
-                                <div className="card-footer">
-                                    <div className="d-flex justify-content-between">
-                                        <div className="technology">
-                                            <span>React.js</span>
+                <div className="blogs my-5">
+                    <Row xs={1} md={3} className="g-4">
+                        <Col>
+                            <Card className="card-bg">
+                                <a className="blog-link" href="https://medium.com/@mahmud886/simple-introduction-to-react-js-e6af8079bf63" target="_blank" rel="noopener noreferrer">
+                                    <article>
+                                        <img className="card-img-top" src="https://miro.medium.com/max/1280/1*aLg1-G2UAlaKpBopRnmCRg.png" alt="Simple Introduction to React.js" />
+                                        <div className="card-body">
+                                            <div className="card-title h5">
+                                                Simple Introduction to React.js
+                                            </div>
+                                            <p className="small card-text">
+                                                React is a library that used to create awesome user interface … hence it is a library it need some other…
+                                            </p>
                                         </div>
-                                        <p>Nov 29 2021</p>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-                    </Card>
-                    <Card className="card-bg">
-                        <a className="blog-link" href="https://medium.com/@mahmud886/simple-introduction-to-react-js-e6af8079bf63" target="_blank" rel="noopener noreferrer">
-                            <article>
-                                <img className="card-img-top" src="https://miro.medium.com/max/1280/1*aLg1-G2UAlaKpBopRnmCRg.png" alt="Simple Introduction to React.js" />
-                                <div className="card-body">
-                                    <div className="card-title h5">
-                                        Simple Introduction to React.js
-                                    </div>
-                                    <p className="small card-text">
-                                        React is a library that used to create awesome user interface … hence it is a library it need some other…
-                                    </p>
-                                </div>
-                                <div className="card-footer">
-                                    <div className="d-flex justify-content-between">
-                                        <div className="technology">
-                                            <span>React.js</span>
+                                        <div className="card-footer">
+                                            <div className="d-flex justify-content-between">
+                                                <div className="technology">
+                                                    <span>React.js</span>
+                                                </div>
+                                                <p>Nov 29 2021</p>
+                                            </div>
                                         </div>
-                                        <p>Nov 29 2021</p>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-                    </Card>
-                    <Card className="card-bg">
-                        <a className="blog-link" href="https://medium.com/@mahmud886/simple-introduction-to-react-js-e6af8079bf63" target="_blank" rel="noopener noreferrer">
-                            <article>
-                                <img className="card-img-top" src="https://miro.medium.com/max/1280/1*aLg1-G2UAlaKpBopRnmCRg.png" alt="Simple Introduction to React.js" />
-                                <div className="card-body">
-                                    <div className="card-title h5">
-                                        Simple Introduction to React.js
-                                    </div>
-                                    <p className="small card-text">
-                                        React is a library that used to create awesome user interface … hence it is a library it need some other…
-                                    </p>
-                                </div>
-                                <div className="card-footer">
-                                    <div className="d-flex justify-content-between">
-                                        <div className="technology">
-                                            <span>React.js</span>
+                                    </article>
+                                </a>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="card-bg">
+                                <a className="blog-link" href="https://medium.com/@mahmud886/simple-introduction-to-react-js-e6af8079bf63" target="_blank" rel="noopener noreferrer">
+                                    <article>
+                                        <img className="card-img-top" src="https://miro.medium.com/max/1280/1*aLg1-G2UAlaKpBopRnmCRg.png" alt="Simple Introduction to React.js" />
+                                        <div className="card-body">
+                                            <div className="card-title h5">
+                                                Simple Introduction to React.js
+                                            </div>
+                                            <p className="small card-text">
+                                                React is a library that used to create awesome user interface … hence it is a library it need some other…
+                                            </p>
                                         </div>
-                                        <p>Nov 29 2021</p>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-                    </Card>
+                                        <div className="card-footer">
+                                            <div className="d-flex justify-content-between">
+                                                <div className="technology">
+                                                    <span>React.js</span>
+                                                </div>
+                                                <p>Nov 29 2021</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="card-bg">
+                                <a className="blog-link" href="https://medium.com/@mahmud886/simple-introduction-to-react-js-e6af8079bf63" target="_blank" rel="noopener noreferrer">
+                                    <article>
+                                        <img className="card-img-top" src="https://miro.medium.com/max/1280/1*aLg1-G2UAlaKpBopRnmCRg.png" alt="Simple Introduction to React.js" />
+                                        <div className="card-body">
+                                            <div className="card-title h5">
+                                                Simple Introduction to React.js
+                                            </div>
+                                            <p className="small card-text">
+                                                React is a library that used to create awesome user interface … hence it is a library it need some other…
+                                            </p>
+                                        </div>
+                                        <div className="card-footer">
+                                            <div className="d-flex justify-content-between">
+                                                <div className="technology">
+                                                    <span>React.js</span>
+                                                </div>
+                                                <p>Nov 29 2021</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </Card>
+                        </Col>
+                    </Row>
                 </div>
             </Container>
         </section>

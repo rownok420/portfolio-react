@@ -51,7 +51,7 @@ const Contact = () => {
                             </div>
                             <p className="abril-font text-center ">Sending to
                                 <u>
-                                    <a className="text-decoration-none text-green" href="mailto:solaimanshadin@gmail.com">{" "}monirhossain6163@gmail.com</a>
+                                    <a className="text-decoration-none text-green" href="mailto:monirhossain6163@gmail.com">{" "}monirhossain6163@gmail.com</a>
                                 </u>
                             </p>
                         </Form>

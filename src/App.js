@@ -7,6 +7,7 @@ import Header from './Components/Shared/Header/Header';
 import About from './Components/About/About';
 import Work from './Components/Work/Work';
 import Blog from './Components/Blog/Blog';
+import NotFound from './Components/NotFound/NotFound';
 import Contact from './Components/Contact/Contact';
 import { useEffect, useState } from 'react';
 import { RotateLoader } from 'react-spinners';
@@ -51,6 +52,9 @@ function App() {
               </Route>
               <Route exact path="/contact">
                 <Contact />
+              </Route>
+              <Route exact path="*">
+                <NotFound />
               </Route>
             </Switch>
             <Footer />

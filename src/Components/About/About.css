@@ -1,0 +1,8 @@
+.skill-title:after {
+    content: "";
+    width: 74px;
+    height: 2px;
+    display: block;
+    margin-top: 7px;
+    background-color: #64ffda;
+}

@@ -1,0 +1,35 @@
+.social-bar {
+    position: fixed;
+    bottom: -15px;
+}
+.social-bar a {
+    color: #ccd6f6;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: all .3s;
+}
+.social-bar a:hover {
+    color: #66ffdb!important;
+    transform: rotate(20deg);
+}
+.social-bar:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #ccd6f6;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: 18px;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}

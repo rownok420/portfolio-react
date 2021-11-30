@@ -1,0 +1,76 @@
+.section-title {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    -webkit-column-gap: 30px;
+    column-gap: 30px;
+}
+.some-work-title {
+    font-size: 2rem;
+}
+.text-right {
+    text-align: right;
+}
+.details-link:before {
+    z-index: -1;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #303c55;
+    position: relative;
+    right: 0;
+    top: 15px;
+}
+.details-link {
+    z-index: 100;
+    background: #0a192f;
+}
+.details-link button {
+    border-color: #64ffda;
+    color: #64ffda;
+}
+.featured-project .project-img {
+    display: block;
+    transition: all .25s cubic-bezier(.645,.045,.355,1) 0s;
+}
+.description {
+    background-color: rgb(23, 42, 69);
+}
+.featured-project .project-info {
+    margin-left: -60px;
+    z-index: 1 !important;
+}
+.technology {
+    display: flex;
+    flex-wrap: wrap;
+}
+.technology span {
+    background: #4b5769;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    height: 26px;
+    text-transform: uppercase;
+}
+.featured-project .preview a {
+    color: #ccd6f6;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+.preview li a {
+    transition: all .3s;
+}
+.preview li a:hover {
+    color: #66ffdb!important;
+}
+.summery {
+    text-align: justify;
+}
+@media only screen and (max-width: 776px) {
+  .featured-project .project-info {
+    margin-left: 0;
+}
+}

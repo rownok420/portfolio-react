@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #0a192f;
+}
+.navbar-nav {
+    align-items: center;
+}
+.nav-link {
+    color: #ccd6f6!important;
+    margin-right: 1.5em;
+    transition: all .3s;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.nav-link:hover {
+    color: #66ffdb!important;
+}
+.nav-link.active:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #66ffdb;
+    transition: all .3s;
+}
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}

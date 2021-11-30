@@ -1,0 +1,60 @@
+.hero-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.text-green {
+    color: #64ffda;
+}
+.left {
+    margin-left: 3rem;
+}
+.summery {
+    text-align: justify;
+}
+.btn-right {
+    margin-right: 1.5rem!important;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.social-media-mobile ul {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.social-media-mobile ul a {
+    color: #ccd6f6;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.social-media-mobile ul a {
+    transition: all .3s;
+}
+.social-media-mobile ul a:hover {
+    color: #66ffdb!important;
+    transform: rotate(20deg);
+}
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+.social-media-mobile ul:after, .social-media-mobile ul:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #fff;
+    transform: translateY(13px);
+}

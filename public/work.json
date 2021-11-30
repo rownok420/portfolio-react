@@ -2,7 +2,7 @@
     {
         "key": 1,
         "title": "Hungry Zone Food Api Project",
-        "about": "This is a niche site for influencing people to buy QualityFull Watches. User's can signup/login here and buy neccessary goods from the site. I've implemented admin panel too. Not but the list, this task was given by Programming hero as the final assignment.",
+        "about": "You can use the test API key 1 during development of your app or for educational use(see test links below)However you must apply for a key a production API key via email if releasing publicly on an appstore.The test key may be revoked at any time if abused.",
         "technology": [
             {
                 "use": "Html"
@@ -127,6 +127,20 @@
             },
             {
                 "power": "Admin Add Tour Packages."
+            }
+        ],
+        "git": [
+            {
+                "link": "https://github.com/netstermonir/travel-guru-frontend",
+                "icon": "fab fa-github"
+            },
+            {
+                "link": "https://travel-guru-28648.web.app/",
+                "icon": "fas fa-external-link-alt"
+            },
+            {
+                "link": "https://github.com/netstermonir/travel-guru-backend",
+                "icon": "fab fa-github"
             }
         ],
         "img": "https://i.ibb.co/3TQq75W/screencapture-travel-guru-28648-web-app-2021-11-30-15-43-01-1.png"

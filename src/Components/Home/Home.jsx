@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ScrollToTop from '../Shared/Scroll/Scroll';
 import BestBlog from './BestBlog/BestBlog';
 import BestWork from './BestWork/BestWork';
 import Hero from './Hero/Hero';
@@ -12,6 +13,7 @@ const Home = () => {
     }, []);
     return (
         <main>
+            <ScrollToTop />
             <Social />
             <Hero />
             <BestWork />

@@ -12,6 +12,7 @@ import Contact from './Components/Contact/Contact';
 import { useEffect, useState } from 'react';
 import { RotateLoader } from 'react-spinners';
 import { css } from "@emotion/react";
+import Practical from './Components/Shared/Practical/Practical';
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
           <RotateLoader size={15} margin={2} css={override} color={"#66ffdb"} loading={loading} />
           :
           <Router>
+            <Practical />
             <Header />
             <Switch>
               <Route exact path="/">
